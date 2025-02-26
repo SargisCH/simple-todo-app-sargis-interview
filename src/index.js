@@ -1,7 +1,9 @@
 import React from "react";
-import ReactDOM from "react-dom";
-//component file
-import TodoContainer from "./components/TodoContainer";
-import "./App.css";
+import { createRoot } from 'react-dom/client';
 
-ReactDOM.render(<TodoContainer />, document.getElementById("root"));
+//component file
+import "./App.css";
+import App from "./App";
+const domNode = document.getElementById('root');
+const root = createRoot(domNode)
+root.render(<App />) 
