@@ -58,3 +58,8 @@ body {
   float: right;
   outline: none;
 }
+
+.user-selector {
+  min-width: 150px;
+  margin-left: 20px;
+}
